@@ -1,0 +1,33 @@
+header {
+    padding: 30px;
+    border: 10px solid darkblue;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: dimgray;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 24px;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+header nav li {
+    padding: 15px;
+    position: relative;
+    line-height: 0px;
+    justify-content: space-between;
+}
