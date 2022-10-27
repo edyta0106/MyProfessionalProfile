@@ -34,8 +34,6 @@ The following is a link and screenshot to the web application:
 
 https://edyta0106.github.io/MyProfessionalProfile/
 
-
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![Alt text](/Assets/Screen%20Shot%202022-10-26%20at%207.20.55%20PM.png)
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
