@@ -1,3 +1,4 @@
+/* Added formatting to header including background color and border */
 header {
     padding: 20px 20px 20px 35px;
     background-color: lightblue;
@@ -9,6 +10,7 @@ header {
     border: 5px solid navy;
 }
 
+/* Added flex elements */
 header nav {
     display: flex;
     position: relative;
@@ -16,6 +18,7 @@ header nav {
     flex-wrap: wrap;
 }
 
+/* Added formatting to h1 */
 header nav h1 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +27,7 @@ header nav h1 {
     align-items:center;
 }
 
+/* Added profile image */
 .header img {
     float: left;
     width: 100px;
@@ -32,6 +36,7 @@ header nav h1 {
     border-radius: 50px;
 }
 
+/* Added ul element with formatting */
 header nav ul {
     list-style-type: none;
     display: inline-flex;
@@ -44,6 +49,7 @@ header nav ul {
     flex-wrap: wrap;
 }
 
+/* Added list formatting */
 header nav li {
     padding: 15px;
     position: relative;
@@ -51,6 +57,7 @@ header nav li {
     justify-content: space-between;
 }
 
+/* Added banner class to main div*/
 .banner {
     display: flex;
     position: relative;
@@ -61,6 +68,7 @@ header nav li {
     width: 100%;
 }
 
+/* Added row class to div images*/
 .row {
     display: flex;
     position: relative;
@@ -70,6 +78,7 @@ header nav li {
     
 }
 
+/* Added formatting class to pizza image */
 .pizza img {
     display: flex;
     position: relative;
@@ -80,6 +89,7 @@ header nav li {
     
 }
 
+/* Added formatting to gym image */
 .gym img {
     display: flex;
     flex-wrap: wrap;
@@ -91,11 +101,13 @@ header nav li {
     
 }
 
+/* Added margin and padding to section elements */
 section {
     margin-top: 15px;
     padding: 0px 25px 0px 25px;
 }
 
+/* Added formatting to the About Me ID */
 #AboutMe {
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +119,7 @@ section {
     padding: 25px 25px 25px 25px;
 }
 
+/* Added formatting to MyProjects ID */
 #MyProjects {
     display: flex;
     position: relative;
@@ -118,6 +131,7 @@ section {
     padding: 25px 25px 25px 25px;
 }
 
+/* Added cards to section elements with formatting */
 .card {
     display: flex;
     position: relative;
@@ -129,6 +143,7 @@ section {
     
 }
 
+/* Added footer element and formatting */
 footer {
     flex-shrink: 0;
     padding: 20px;
@@ -140,9 +155,11 @@ footer {
     border: 5px solid navy;
 }
 
+/* Added text-align to h3 */
 h3 {
     text-align: center;}
 
+    /* Added info class to ul */
 .info {
     display: flex;
     position: relative;
@@ -153,12 +170,13 @@ h3 {
     margin: 10px;
 }
 
+/* Added margin to li */
 .li {
     margin: 0px 15px 0px 15px;
 }
 
 
-
+/* Added media screen for tablet and phone */
 @media screen and (max-width: 1023px) {
     header nav ul {
         flex-direction: column;
