@@ -1,199 +1,191 @@
 /* Added formatting to header including background color and border */
 header {
-    padding: 20px 20px 20px 35px;
-    background-color: lightblue;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    border: 5px solid navy;
+  padding: 20px 20px 20px 35px;
+  background-color: lightblue;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Added flex elements */
 header nav {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 /* Added formatting to h1 */
 header nav h1 {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    color: dimgray;
-    align-items:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: dimgray;
+  align-items: center;
+}
+
+div.header {
+  display: inherit;
 }
 
 /* Added profile image */
 .header img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-right: 15px; 
-    border-radius: 50px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 50px;
 }
 
 /* Added ul element with formatting */
 header nav ul {
-    list-style-type: none;
-    display: inline-flex;
-    font-size: 24px;
-    color: dimgray;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    position: relative;
-    left: 60%;   
-    flex-wrap: wrap;
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 24px;
+  color: dimgray;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Added list formatting */
 header nav li {
-    padding: 15px;
-    position: relative;
-    line-height: 0px;
-    justify-content: space-between;
+  padding: 15px;
+  line-height: 0px;
 }
 
 /* Added banner class to main div*/
 .banner {
-    display: flex;
-    position: relative;
-    background: url(./shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100px;
-    width: 100%;
+  display: flex;
+  position: relative;
+  background: url(./shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 225px;
+  width: 100%;
 }
 
 /* Added row class to div images*/
 .row {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    padding: 25px 25px 25px 25px;
-    
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 25px 25px 25px 25px;
+  justify-content: center;
 }
 
 /* Added formatting class to pizza image */
-.pizza img {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
-    left: 10%;
-    
+.project img {
+  /* width: 400px; */
+  height: 400px;
 }
 
 /* Added formatting to gym image */
 .gym img {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    width: 800px;
-    height: 400px;
-    left: 10%;
-
-    
+  width: 800px;
+  height: 400px;
 }
 
 /* Added margin and padding to section elements */
 section {
-    margin-top: 15px;
-    padding: 0px 25px 0px 25px;
+  margin-top: 15px;
+  padding: 0px 25px 0px 25px;
 }
 
 /* Added formatting to the About Me ID */
 #AboutMe {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    margin: 15px 15px 15px 15px;
-    padding: 25px 25px 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 15px 15px 15px 15px;
+  padding: 25px 25px 25px 25px;
 }
 
 /* Added formatting to MyProjects ID */
 #MyProjects {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    margin: 15px 15px 15px 15px;
-    padding: 25px 25px 25px 25px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 15px 15px 15px 15px;
+  padding: 25px 25px 25px 25px;
+  flex-direction: column;
+}
+
+#MyProjects h2 {
+  text-align: center;
 }
 
 /* Added cards to section elements with formatting */
 .card {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: center;
-    border: 5px solid navy;
-    width: 98%;
-    
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: center;
+  width: 98%;
 }
 
 /* Added footer element and formatting */
 footer {
-    flex-shrink: 0;
-    padding: 20px;
-    background: lightblue;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-top: auto;
-    border: 5px solid navy;
+  flex-shrink: 0;
+  padding: 20px;
+  background: lightblue;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: auto;
 }
 
 /* Added text-align to h3 */
 h3 {
-    text-align: center;}
+  text-align: center;
+}
 
-    /* Added info class to ul */
+/* Added info class to ul */
 .info {
-    display: flex;
-    position: relative;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    justify-content: center;
-    margin: 10px;
+  display: flex;
+  position: relative;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  justify-content: center;
+  margin: 10px;
 }
 
 /* Added margin to li */
 .li {
-    margin: 0px 15px 0px 15px;
+  margin: 0px 15px 0px 15px;
 }
-
 
 /* Added media screen for tablet and phone */
 @media screen and (max-width: 1023px) {
-    header nav ul {
-        flex-direction: column;
-    }
+  header nav ul {
+    flex-direction: column;
+  }
 
-    section {
-        padding-right: 0;
-    }
+  section {
+    padding-right: 0;
+  }
+
+  .row {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    header nav ul {
-        flex-direction: column;
-    }
-    
-    section {
-        padding-right: 0;
-    }
+  header nav ul {
+    flex-direction: column;
+  }
 
+  section {
+    padding-right: 0;
+  }
 }
